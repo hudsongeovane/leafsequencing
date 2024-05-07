@@ -5,10 +5,7 @@ class Content extends React.Component {
   render() {
     return (
       <div className='content'>
-        <div className='contentfirst'>
-            <img className='img' src={linac}
-            alt='Linear accelerator'></img>
-        </div>
+        
         <div className='contentsecond'>
             <h2>Leaf Sequencing Problem in IMRT</h2>
             <p>
@@ -25,6 +22,10 @@ class Content extends React.Component {
               decompose this matrix in 0-1 segments in which the ones in each row
               are consecutive.
             </p>
+        </div>
+        <div className='contentfirst'>
+            <img className='img' src={linac}
+            alt='Linear accelerator'></img>
         </div>
       </div>
     );
